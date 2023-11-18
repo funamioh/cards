@@ -1,0 +1,67 @@
+/* Your card CSS file */
+.card-category {
+  background-size: cover;
+  background-position: bottom;
+  height: 180px;
+  color: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 700;
+  border-radius: 6px;
+  box-shadow: 4px 4px 16px rgb(179, 179, 179);
+  text-shadow: 4px 4px 10px rgb(6, 6, 6);
+}
+
+.card-product {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #ffff;
+  margin-top: 20px;
+  box-shadow: 4px 4px 16px rgb(179, 179, 179);
+}
+
+.card-product img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  display: flex;
+}
+
+.card-product-info p {
+  margin-top: 6px;
+}
+
+.card-trip {
+  margin-top: 20px;
+  box-shadow: 4px 4px 16px rgb(179, 179, 179);
+}
+
+.travel-img {
+  width: 100%;
+  height: 200px;
+}
+
+.text-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 14px;
+  position: relative;
+}
+
+p {
+  font-size: 12px;
+  margin: 0;
+}
+
+.avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+}
